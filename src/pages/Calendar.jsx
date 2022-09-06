@@ -40,7 +40,7 @@ export const Calendar = () => {
     ];
     
       
-    const [scheduleObj, setSecheduleObj] = useState()
+    const [setSecheduleObj] = useState()
   return (
     <div className='bg-white w-full overflow-auto'>
       <div className='md:bg-[#F5F5F5] m-2 md:m-10 mt-24 p-2 md:p-10 rounded-3xl'>

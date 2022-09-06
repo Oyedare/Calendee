@@ -27,6 +27,7 @@ export const Signup = ({setIsAuth}) => {
   const emailSignUp = async() =>{
     try{
       const user = await createUserWithEmailAndPassword(auth, registerEmail, registerPassword)
+      console.log(user);
       localStorage.setItem("isAuth", true)
       setIsAuth(true);
       navigate("/calendar")
