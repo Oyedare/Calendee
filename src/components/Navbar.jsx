@@ -38,7 +38,7 @@ export const Navbar = ({isAuth,setIsAuth}) => {
                 <>
                     <div className="nav">
                         <div className="logo">
-                            <Link to="/">Calendee..</Link>
+                            <Link to="/calendar">Calendee..</Link>
                         </div>
                         <div className="user">
                             <p>

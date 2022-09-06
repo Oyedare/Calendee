@@ -11,7 +11,7 @@ export const Login = ({setIsAuth}) => {
   const googleSignIn = () =>{
     signInWithPopup(auth, provider)
       .then((result)=>{
-        // localStorage.setItem("isAuth", true)
+        localStorage.setItem("isAuth", true)
         setIsAuth(true);
         navigate("/calendar")
       })
