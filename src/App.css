@@ -393,9 +393,9 @@ body{
     .form-container input{
         width: 270px;
     }
-    .submit-btn {
-        /* margin-left: -1rem; */
-    }
+    /* .submit-btn {
+        margin-left: -1rem;
+    } */
 }
 
 @media(max-width: 375px) {

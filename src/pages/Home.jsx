@@ -2,7 +2,7 @@ import React, {useState,useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import pic1 from '../assets/1.jpg'
 import pic2 from '../assets/2.jpg'
-import pic3 from '../assets/3.jpg'
+// import pic3 from '../assets/3.jpg'
 import target from '../assets/target.svg'
 // import { Navbar } from '../components/Navbar'
 // import {FaCaretRight} from 'react-icons/fa'
@@ -18,9 +18,6 @@ export const Home = () => {
     {
       img: pic2
     },
-    {
-      img: pic3
-    }
   ]
 
   const features = [
