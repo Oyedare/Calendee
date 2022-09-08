@@ -17,7 +17,7 @@ export const Home = () => {
     },
     {
       img: pic2
-    },
+    }
   ]
 
   const features = [
